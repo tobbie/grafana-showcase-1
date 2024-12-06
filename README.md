@@ -1,12 +1,12 @@
 ## Project Title 
 A Grafana dashboard for monitoring and visualization 
 
-## Description
+### Description
 
-## Setup Instructions:
+### Setup Instructions:
 
-## Features:
+### Features:
 
-## Screenshots:
+### Screenshots:
 
-### License: MIT
+#### License: MIT
