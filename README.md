@@ -8,6 +8,9 @@ A Grafana dashboard for monitoring and visualization
 ### Features:
 
 ### Screenshots:
+    * 1
 ![Dashboard Preview](images/shoehub-business-chart-1.jpg)
+    * 2
+![Dashboard Preview](images/shoehub-business-chart-2.jpg)
 
 #### License: MIT
