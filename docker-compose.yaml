@@ -51,9 +51,9 @@ services:
     image: grafana/grafana:latest
     volumes:
       - grafana-data:/var/lib/grafana
-      - provisioning-dashboards:/etc/grafana/provisioning/dashboards
       - provisioning-datasources:/etc/grafana/provisioning/datasources
-      #- ./shared/grafana/provisioning/datasources/:/etc/grafana/provisioning/datasources
+      - ./shared/grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+      
     environment:
       - GF_AUTH_ANONYMOUS_ENABLED=false
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
@@ -87,5 +87,4 @@ volumes:
   prometheus-data:
   tempo-data:
   grafana-data:
-  provisioning-dashboards:
   provisioning-datasources:
