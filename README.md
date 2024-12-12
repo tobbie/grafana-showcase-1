@@ -7,11 +7,11 @@ This project provides pre-configured Grafana dashboards for monitoring and visua
 ### Setup Instructions (Linux/Mac):
 1. Clone the repo
 2. Ensure your logged in user has write permissions to all the files and subdirectories in the repository folder. Run the following commands
-    *  sudo chown -R <username>:<username> ./grafana-showcase-1 
-    *  sudo chmod -R 755 grafana-showcase-1 
+    *  sudo chown -R [username]:[username] ./grafana-showcase-1 
+    *  sudo chmod -R 755 ./grafana-showcase-1 
 3. Run the following command
     * docker compose up -d 
-4. Visit localhost:3000/ , type the default username and password -  admin , admin; then create your password.
+4. Visit localhost:3000/, type the default username and password -  admin , admin; then create your password.
 5. To view charts that come with this project, copy the contents of   ./dashboards/* into ./shared/grafana/provisioning/dashboards/
 6. Visit the grafana Dashboard menu, search for ShoeHub Business or ShoeHub Business Charts to view the pre-made dashboards.
 
