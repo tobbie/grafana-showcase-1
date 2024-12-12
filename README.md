@@ -1,7 +1,8 @@
 ## Project Title 
-A Grafana dashboard for monitoring and visualization 
+Grafana dashboards for monitoring and visualization 
 
 ### Description
+This project provides pre-configured Grafana dashboards for monitoring and visualization. It includes dynamic, multi-valued charts with various types such as time series, gauge, and pie charts. These dashboards are designed to display business metrics with filtering and thresholding capabilities, making them suitable for analyzing data like payment methods and geographical distribution
 
 ### Setup Instructions (Linux/Mac):
 1. Clone the repo
@@ -38,4 +39,4 @@ The docker compose file contains the following services
     * 4
 ![Dashboard Preview](images/shoehub-business-chart-2.jpg)
 
-#### License: MIT  #### Credits A big thank you Aref Karimi you can learn about grafana stack here : https://www.udemy.com/course/grafana-graphite-and-statsd-visualize-metrics/?couponCode=ST19MT121224
+ #### Credits A big thank you Aref Karimi for his amazig course. You can learn about PLG stack [here] : (https://www.udemy.com/course/grafana-graphite-and-statsd-visualize-metrics/?couponCode=ST19MT121224)
