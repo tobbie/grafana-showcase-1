@@ -39,4 +39,4 @@ The docker compose file contains the following services
     * 4
 ![Dashboard Preview](images/shoehub-business-chart-2.jpg)
 
- #### Credits A big thank you Aref Karimi for his amazig course. You can learn about PLG stack [here] : (https://www.udemy.com/course/grafana-graphite-and-statsd-visualize-metrics/?couponCode=ST19MT121224)
+ ### Credits A big thank you Aref Karimi for his amazig course. You can learn about PLG stack [here] : (https://www.udemy.com/course/grafana-graphite-and-statsd-visualize-metrics/?couponCode=ST19MT121224)
